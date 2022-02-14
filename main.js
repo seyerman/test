@@ -1,4 +1,6 @@
-document.getElementById('issueInputForm').addEventListener('submit', saveIssue);
+windows.addEventListener("load", async () => {
+  document.getElementById('issueInputForm').addEventListener('submit', saveIssue);  
+})
 
 function fetchIssues () {
   var issues = JSON.parse(localStorage.getItem('issues'));
