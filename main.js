@@ -1,4 +1,4 @@
-windows.addEventListener("load", async () => {
+window.addEventListener("load", async () => {
   document.getElementById('issueInputForm').addEventListener('submit', saveIssue);  
 })
 
